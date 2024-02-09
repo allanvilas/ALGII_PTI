@@ -1,0 +1,15 @@
+C:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\src\obj\Debug\net8.0\src.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\src\obj\Debug\net8.0\src.AssemblyInfoInputs.cache
+C:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\src\obj\Debug\net8.0\src.AssemblyInfo.cs
+C:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\src\obj\Debug\net8.0\src.csproj.CoreCompileInputs.cache
+C:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\src\obj\Debug\net8.0\src.sourcelink.json
+C:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\src\bin\Debug\net8.0\src.exe
+C:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\src\bin\Debug\net8.0\src.deps.json
+C:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\src\bin\Debug\net8.0\src.runtimeconfig.json
+C:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\src\bin\Debug\net8.0\src.dll
+C:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\src\bin\Debug\net8.0\src.pdb
+C:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\src\obj\Debug\net8.0\src.dll
+C:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\src\obj\Debug\net8.0\refint\src.dll
+C:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\src\obj\Debug\net8.0\src.pdb
+C:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\src\obj\Debug\net8.0\src.genruntimeconfig.cache
+C:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\src\obj\Debug\net8.0\ref\src.dll

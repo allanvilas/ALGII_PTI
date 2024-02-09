@@ -97,3 +97,10 @@ c:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\tests\obj\Debug\net8
 c:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\tests\obj\Debug\net8.0\tests.pdb
 c:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\tests\obj\Debug\net8.0\tests.genruntimeconfig.cache
 c:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\tests\obj\Debug\net8.0\ref\tests.dll
+C:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\tests\bin\Debug\net8.0\CoverletSourceRootsMapping_tests
+C:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\tests\bin\Debug\net8.0\src.deps.json
+C:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\tests\bin\Debug\net8.0\src.runtimeconfig.json
+C:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\tests\bin\Debug\net8.0\src.exe
+C:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\tests\bin\Debug\net8.0\src.dll
+C:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\tests\bin\Debug\net8.0\src.pdb
+C:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\tests\obj\Debug\net8.0\tests.sourcelink.json
