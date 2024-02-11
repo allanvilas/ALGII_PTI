@@ -1,0 +1,15 @@
+/workspaces/ALGII_PTI/src/bin/Debug/net7.0/src
+/workspaces/ALGII_PTI/src/bin/Debug/net7.0/src.deps.json
+/workspaces/ALGII_PTI/src/bin/Debug/net7.0/src.runtimeconfig.json
+/workspaces/ALGII_PTI/src/bin/Debug/net7.0/src.dll
+/workspaces/ALGII_PTI/src/bin/Debug/net7.0/src.pdb
+/workspaces/ALGII_PTI/src/obj/Debug/net7.0/src.csproj.AssemblyReference.cache
+/workspaces/ALGII_PTI/src/obj/Debug/net7.0/src.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/ALGII_PTI/src/obj/Debug/net7.0/src.AssemblyInfoInputs.cache
+/workspaces/ALGII_PTI/src/obj/Debug/net7.0/src.AssemblyInfo.cs
+/workspaces/ALGII_PTI/src/obj/Debug/net7.0/src.csproj.CoreCompileInputs.cache
+/workspaces/ALGII_PTI/src/obj/Debug/net7.0/src.dll
+/workspaces/ALGII_PTI/src/obj/Debug/net7.0/refint/src.dll
+/workspaces/ALGII_PTI/src/obj/Debug/net7.0/src.pdb
+/workspaces/ALGII_PTI/src/obj/Debug/net7.0/src.genruntimeconfig.cache
+/workspaces/ALGII_PTI/src/obj/Debug/net7.0/ref/src.dll

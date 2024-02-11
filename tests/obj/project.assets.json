@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {
+    "net7.0": {
       "coverlet.collector/6.0.0": {
         "type": "package",
         "build": {
@@ -1715,7 +1715,7 @@
       },
       "src/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
+        "framework": ".NETCoreApp,Version=v7.0",
         "compile": {
           "bin/placeholder/src.dll": {}
         },
@@ -5525,7 +5525,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net8.0": [
+    "net7.0": [
       "Microsoft.NET.Test.Sdk >= 17.6.0",
       "coverlet.collector >= 6.0.0",
       "src >= 1.0.0",
@@ -5534,32 +5534,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\allan\\.nuget\\packages\\": {}
+    "/home/codespace/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\tests\\tests.csproj",
+      "projectUniqueName": "/workspaces/ALGII_PTI/tests/tests.csproj",
       "projectName": "tests",
-      "projectPath": "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\tests\\tests.csproj",
-      "packagesPath": "C:\\Users\\allan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\tests\\obj\\",
+      "projectPath": "/workspaces/ALGII_PTI/tests/tests.csproj",
+      "packagesPath": "/home/codespace/.nuget/packages/",
+      "outputPath": "/workspaces/ALGII_PTI/tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\allan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/codespace/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net8.0"
+        "net7.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\src\\src.csproj": {
-              "projectPath": "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\src\\src.csproj"
+            "/workspaces/ALGII_PTI/src/src.csproj": {
+              "projectPath": "/workspaces/ALGII_PTI/src/src.csproj"
             }
           }
         }
@@ -5571,8 +5571,8 @@
       }
     },
     "frameworks": {
-      "net8.0": {
-        "targetAlias": "net8.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
@@ -5611,7 +5611,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
       }
     }
   }
