@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\tests\\tests.csproj": {}
+    "/workspaces/ALGII_PTI/tests/tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\src\\src.csproj": {
+    "/workspaces/ALGII_PTI/src/src.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\src\\src.csproj",
+        "projectUniqueName": "/workspaces/ALGII_PTI/src/src.csproj",
         "projectName": "src",
-        "projectPath": "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\src\\src.csproj",
-        "packagesPath": "C:\\Users\\allan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\src\\obj\\",
+        "projectPath": "/workspaces/ALGII_PTI/src/src.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/ALGII_PTI/src/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\allan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -35,8 +35,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
@@ -53,34 +53,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\tests\\tests.csproj": {
+    "/workspaces/ALGII_PTI/tests/tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\tests\\tests.csproj",
+        "projectUniqueName": "/workspaces/ALGII_PTI/tests/tests.csproj",
         "projectName": "tests",
-        "projectPath": "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\tests\\tests.csproj",
-        "packagesPath": "C:\\Users\\allan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\tests\\obj\\",
+        "projectPath": "/workspaces/ALGII_PTI/tests/tests.csproj",
+        "packagesPath": "/home/codespace/.nuget/packages/",
+        "outputPath": "/workspaces/ALGII_PTI/tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\allan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net7.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\src\\src.csproj": {
-                "projectPath": "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\src\\src.csproj"
+              "/workspaces/ALGII_PTI/src/src.csproj": {
+                "projectPath": "/workspaces/ALGII_PTI/src/src.csproj"
               }
             }
           }
@@ -92,8 +92,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -132,7 +132,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
         }
       }
     }
