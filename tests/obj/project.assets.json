@@ -5534,19 +5534,19 @@
     ]
   },
   "packageFolders": {
-    "/home/codespace/.nuget/packages/": {}
+    "C:\\Users\\allan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/workspaces/ALGII_PTI/tests/tests.csproj",
+      "projectUniqueName": "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\tests\\tests.csproj",
       "projectName": "tests",
-      "projectPath": "/workspaces/ALGII_PTI/tests/tests.csproj",
-      "packagesPath": "/home/codespace/.nuget/packages/",
-      "outputPath": "/workspaces/ALGII_PTI/tests/obj/",
+      "projectPath": "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\tests\\tests.csproj",
+      "packagesPath": "C:\\Users\\allan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/codespace/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\allan\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -5558,8 +5558,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/workspaces/ALGII_PTI/src/src.csproj": {
-              "projectPath": "/workspaces/ALGII_PTI/src/src.csproj"
+            "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\src\\src.csproj": {
+              "projectPath": "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\src\\src.csproj"
             }
           }
         }
@@ -5611,7 +5611,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

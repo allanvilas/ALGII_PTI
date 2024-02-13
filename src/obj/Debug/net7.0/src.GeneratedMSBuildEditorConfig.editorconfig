@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = src
-build_property.ProjectDir = /workspaces/ALGII_PTI/src/
+build_property.ProjectDir = C:\Users\allan\Documents\Estudos\SENAC\ALG2\PTI_ALG_PROG_II\src\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

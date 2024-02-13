@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/ALGII_PTI/src/src.csproj": {}
+    "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\src\\src.csproj": {}
   },
   "projects": {
-    "/workspaces/ALGII_PTI/src/src.csproj": {
+    "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\src\\src.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/ALGII_PTI/src/src.csproj",
+        "projectUniqueName": "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\src\\src.csproj",
         "projectName": "src",
-        "projectPath": "/workspaces/ALGII_PTI/src/src.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/ALGII_PTI/src/obj/",
+        "projectPath": "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\src\\src.csproj",
+        "packagesPath": "C:\\Users\\allan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\allan\\Documents\\Estudos\\SENAC\\ALG2\\PTI_ALG_PROG_II\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\allan\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/dotnet/7.0.306/sdk/7.0.306/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
