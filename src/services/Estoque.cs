@@ -1,7 +1,4 @@
 
-
-
-
 using System.Data;
 
 namespace PTI;
@@ -26,6 +23,11 @@ public class Estoque
 
         Produtos.Add(NovoId,produto);
         EstoqueProdutos.Add(NovoId,0);
+    }
+    public void ListarProdutosEstoque(){
+        foreach(var produto in Produtos){            
+            Console.WriteLine($"{produto.Key}. {produto.Value.Nome} ({produto.Value.Preco}) - Em estoque: {EstoqueProdutos[produto.Key]}");
+        }
     }
 
     public void RemoverProduto(int idProduto)

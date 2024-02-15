@@ -22,4 +22,4 @@ dotnet_sdk_7.0.306
 
 ### Instruções de uso: 
 ** Software ainda em desenvolvimento
-Pode ser executado utilizando versão 7.0.306.
+Pode ser executado utilizando versão 7.0.306. ou superior.

@@ -7,7 +7,7 @@ public class EstoqueTestes
     [Fact]
     public void TesteCadastroProduto(){
         //Arrange
-        Produto produtoTeste = new("Mouse Razer Naga Hex",599.9m,10,500,2023,190);
+        Produto produtoTeste = new("Mouse Razer Naga Hex",599.9m,"Razer",500,2023,190);
         int EstoqueContagem = sut.Produtos.Count;
 
         //Act
@@ -19,7 +19,7 @@ public class EstoqueTestes
     [Fact]
     public void TesteProcuraIdProduto(){
         //Arrange
-        Produto produtoTeste = new("Mouse Razer Naga Hex",599.9m,10,500,2023,190);
+        Produto produtoTeste = new("Mouse Razer Naga Hex",599.9m,"Razer",500,2023,190);
         sut.AdicionaProduto(produtoTeste);
         
         //Act
@@ -32,7 +32,7 @@ public class EstoqueTestes
     [Fact]
     public void TesteRemocaoProdutos(){
         //Arrange
-        Produto produtoTeste = new("Mouse Razer Naga Hex",599.9m,10,500,2023,190);
+        Produto produtoTeste = new("Mouse Razer Naga Hex",599.9m,"Razer",500,2023,190);
         sut.AdicionaProduto(produtoTeste);
         int EstoqueContagem = sut.Produtos.Count;
         
@@ -47,7 +47,7 @@ public class EstoqueTestes
     [Fact]
     public void TesteEntradaEstoque(){
         //Arrange
-        Produto produtoTeste = new("Mouse Razer Naga Hex",599.9m,10,500,2023,190);
+        Produto produtoTeste = new("Mouse Razer Naga Hex",599.9m,"Razer",500,2023,190);
         sut.AdicionaProduto(produtoTeste);
         int IndiceProduto = 1;
         int quantidade = 10;
@@ -63,7 +63,7 @@ public class EstoqueTestes
     [Fact]
     public void TesteSaidaEstoque(){
         //Arrange
-        Produto produtoTeste = new("Mouse Razer Naga Hex",599.9m,10,500,2023,190);
+        Produto produtoTeste = new("Mouse Razer Naga Hex",599.9m,"Razer",500,2023,190);
         sut.AdicionaProduto(produtoTeste);
         int IndiceProduto = 1;
         int quantidadeEntrada = 10;
