@@ -10,14 +10,15 @@ public struct Produto
         Motivo>>
         Funcionalidade não foi incluida nos requisitos do projeto.
     */
-    public string Nome { get; private set; }
-    public decimal Preco { get; private set; }
-    public string Marca { get; private set; }
-    public double Peso { get; private set; }
-    public int AnoLancamento { get; private set; }
-    public int DiasGarantia { get; private set; }
-    public bool Habilitado { get; private set; }
-    public Produto(string nome, decimal preco, string marca, int peso, int anoLancamento, int diasGarantia)
+
+    public string? Nome { get; private set; }
+    public decimal? Preco { get; private set; }
+    public string? Marca { get; private set; }
+    public double? Peso { get; private set; }
+    public int? AnoLancamento { get; private set; }
+    public int? DiasGarantia { get; private set; }
+    public bool? Habilitado { get; private set; }
+    public Produto(string nome, decimal preco, string marca, double peso, int anoLancamento, int diasGarantia)
     {
         Nome = nome;
         Preco = preco;
@@ -41,14 +42,9 @@ public struct Produto
             CadastraDiasGarantia();
             ProdutoPodeSerHabilitado();
         }
-        catch (FormatException Erro)
+        catch (System.Exception Erro)
         {
-
-            throw;
-        }
-        catch (System.Exception)
-        {
-
+            Console.WriteLine($"{Erro.Message}\n\n Parece que houve um erro com o valor inserido.");
             throw;
         }
         Console.WriteLine("---- Fim Cadastro Produto ----");
@@ -62,14 +58,55 @@ public struct Produto
         bool ChecaAnoLancamento = false;
         bool ChecaDiasGarantia = false;
 
-        if (Nome is not null && Nome != "") { Console.WriteLine("[O] Nome é valido"); ChecaNome = true; } else { Console.WriteLine("[X] Nome é invalido"); ChecaNome = false; }
-        if (Preco > 0.00m) { Console.WriteLine("[O] Preco é valido"); ChecaPreco = true; } else { Console.WriteLine("[X] Preco é invalido"); ChecaPreco = false; }
-        if (Marca is not null && Marca != "") { Console.WriteLine("[O] Marca é valido"); ChecaMarca = true; } else { Console.WriteLine("[X] Marca é invalido"); ChecaMarca = false; }
-        if (Peso > 0.0) { Console.WriteLine("[O] Peso é valido"); ChecaPeso = true; } else { Console.WriteLine("[X] Peso é invalido"); ChecaPeso = false; }
-        if (AnoLancamento > 0) { Console.WriteLine("[O] AnoLancamento é valido"); ChecaAnoLancamento = true; } else { Console.WriteLine("[X] ChecaAnoLancamento é invalido"); Habilitado = false; }
-        if (DiasGarantia > 0) { Console.WriteLine("[O] DiasGarantia é valido"); ChecaDiasGarantia = true; } else { Console.WriteLine("[X] DiasGarantia é invalido"); ChecaDiasGarantia = false; }
-
-        if (ChecaNome && ChecaPreco && ChecaMarca && ChecaPeso && ChecaAnoLancamento && ChecaDiasGarantia) { Habilitado = true; Console.WriteLine("Este produto está habilitado."); } else { Habilitado = false; Console.WriteLine("Este produto não está habilitado. há ajustes pendentes."); }
+        if (Nome is not null && Nome != "") {
+            Console.WriteLine("[O] Nome é valido");
+            ChecaNome = true;
+        } else {
+            Console.WriteLine("[X] Nome é invalido");
+            ChecaNome = false;
+        }
+        if (Preco > 0.00m) {
+            Console.WriteLine("[O] Preco é valido");
+            ChecaPreco = true;
+        } else {
+            Console.WriteLine("[X] Preco é invalido");
+            ChecaPreco = false;
+        }
+        if (Marca is not null && Marca != "") {
+            Console.WriteLine("[O] Marca é valido");
+            ChecaMarca = true;
+        } else {
+            Console.WriteLine("[X] Marca é invalido");
+            ChecaMarca = false;
+        }
+        if (Peso > 0.0) {
+            Console.WriteLine("[O] Peso é valido");
+            ChecaPeso = true;
+        } else {
+            Console.WriteLine("[X] Peso é invalido");
+            ChecaPeso = false;
+        }
+        if (AnoLancamento > 0) {
+            Console.WriteLine("[O] AnoLancamento é valido");
+            ChecaAnoLancamento = true;
+        } else {
+            Console.WriteLine("[X] ChecaAnoLancamento é invalido");
+            Habilitado = false;
+        }
+        if (DiasGarantia > 0) {
+            Console.WriteLine("[O] DiasGarantia é valido");
+            ChecaDiasGarantia = true;
+        } else {
+            Console.WriteLine("[X] DiasGarantia é invalido");
+            ChecaDiasGarantia = false;
+        }
+        if (ChecaNome && ChecaPreco && ChecaMarca && ChecaPeso && ChecaAnoLancamento && ChecaDiasGarantia) {
+            Habilitado = true;
+            Console.WriteLine("Este produto está habilitado.");
+        } else {
+            Habilitado = false;
+            Console.WriteLine("Este produto não está habilitado. há ajustes pendentes.");
+        }
     }
     public void CadastraNome()
     {

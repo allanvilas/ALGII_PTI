@@ -16,4 +16,11 @@ public class ProdutoTestes
         Assert.Equal(2023,mouse.AnoLancamento);
         Assert.Equal(190,mouse.DiasGarantia);
     }
+
+    [Fact]
+    public void TesteInstanciaProdutoBuilder()
+    {
+        Produto Monitor = new();
+        
+    }
 }
